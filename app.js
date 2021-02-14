@@ -129,10 +129,12 @@ searchBtn.addEventListener('click', function () {
   sliders.length = 0;
   //extra for bonus
   document.getElementById('duration').value = null;
+  imageCount(0);
 })
 
 sliderBtn.addEventListener('click', function () {
   createSlider()
+  imageCount(0);
 })
 
 //improvement works
